@@ -1,0 +1,44 @@
+
+
+.burger {
+    height: 64px;
+    width: 64px;
+    display: grid;
+
+    align-content: space-between;
+    background-color: darkorange;
+}
+
+.burger:hover {
+    background-color: peachpuff;
+}
+
+.burger-part {
+    height: 8px;
+    background-color: #333; 
+    transition: 1s;
+}
+
+.burger:hover .top {
+    transform: translateY(28px) rotate(45deg);
+}
+
+
+.burger:hover .patty {
+    transform: translateX(500px);
+    opacity: 0;
+}
+
+.burger:hover .bottom {
+    transform: translateY(-28px) rotate(-45deg);
+}
+
+
+.firkant {
+    font-size: 60px;
+}
+
+.firkant div {
+    width: 5em;
+    background-color: peru;
+}

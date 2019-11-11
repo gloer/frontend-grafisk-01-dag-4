@@ -2,6 +2,7 @@
 
 h1 {
     margin: 0;
+    line-height: 1;
 }
 
 .nyheter {
@@ -34,4 +35,8 @@ h1 {
 .stor-tekst {
     font-size: 70px;
     margin: 0;
+}
+
+.mellomstor-tekst {
+    font-size: 40px;
 }
