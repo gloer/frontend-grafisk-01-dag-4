@@ -1,0 +1,30 @@
+/* Dette skal bli et rutenett - eller en grid */
+.nyheter {
+    width: 900px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 80px;
+}
+
+.nyhet {
+    background-color: peru;
+    
+}
+
+.hovedsak {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.col-3 {
+    grid-column: span 3;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.row-2 {
+    grid-row: span 2;
+}
